@@ -1,10 +1,15 @@
-import react from "react";
-
+import Header from "../Header/Header";
+import Sidebar from "../Sidebar/Sidebar";
+import Main from "../Main/Main";
+import style from "./Layout.module.css";
 const Layout = () => {
   return (
-    <>
-      <h1>TODO</h1>
-    </>
+    <div className={style.layout}>
+      <Header className={style.header} />
+
+      <Sidebar className={style.sidebar} />
+      <Main className={style.main} />
+    </div>
   );
 };
 
