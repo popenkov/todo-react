@@ -1,6 +1,6 @@
-import Header from "../Header/Header";
-import Sidebar from "../Sidebar/Sidebar";
-import Main from "../Main/Main";
+import Header from "../Header/Header.tsx";
+import Sidebar from "../Sidebar/Sidebar.tsx";
+import Main from "../Main/Main.tsx";
 import style from "./Layout.module.css";
 const Layout = () => {
   return (

@@ -1,14 +1,19 @@
 import style from "./FilterList.module.css";
-import cn from "classnames";
+import {FC} from "react";
 
-const FilterList = (props: any): JSX.Element => {
+interface FilterListProps {
+  filterInputHandler: (e: any) => void;
+}
+
+
+const FilterList: FC<FilterListProps> = ({filterInputHandler}): JSX.Element => {
   return (
     <input
-      onInput={(e) => {
-        props.filterInputHandler(e);
-      }}
-      className="{cn(style.FilterList)}"
-    ></input>
+    onInput={(e) => {
+      filterInputHandler(e);
+    }}
+    className={style.filterList}
+    />
   );
 };
 

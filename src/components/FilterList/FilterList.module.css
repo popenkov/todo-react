@@ -1,0 +1,12 @@
+.filterList {
+  width: 90%;
+  padding: 16px;
+  background-color: #fec859;
+  border: 1px solid #491d88;
+  border-radius: 8px;
+
+  color: #331a38;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 20px;
+}
