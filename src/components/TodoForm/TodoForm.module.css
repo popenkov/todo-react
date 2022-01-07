@@ -1,0 +1,36 @@
+.todoForm {
+  margin-bottom: 20px;
+}
+
+.todoBtn {
+  padding: 16px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(90deg, #fa448c 0%, #491d88 100%);
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.todoInput {
+  padding: 15px 32px 15px 16px;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid #fa448c;
+  outline: none;
+  width: 320px;
+  background: transparent;
+}
+
+.todoInput.edit {
+  border: 2px solid #149fff;
+}
+
+.todoBtn.edit {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 1) 0%,
+    rgba(17, 122, 255, 1) 100%
+  );
+  padding: 16px 22px;
+}

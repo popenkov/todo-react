@@ -13,7 +13,9 @@ export const ToDoContext = createContext<IToDoContext>({ todo });
 function App(): JSX.Element {
   return (
     <ToDoContext.Provider value={{ todo: todo }}>
-      <Layout></Layout>
+
+            <Layout></Layout>
+
     </ToDoContext.Provider>
   );
 }

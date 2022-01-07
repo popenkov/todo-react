@@ -1,0 +1,11 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 500px;
+  min-height: 200px;
+  background-color: #fec859;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 5px;
+}
